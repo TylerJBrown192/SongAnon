@@ -5,13 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-    inputUrl: string;
-    outputUrl: string;
-
-    generateLink(): void {
-        // this.outputUrl = '';
-
-        // this.outputUrl = something;
-    }
-}
+export class AppComponent {}

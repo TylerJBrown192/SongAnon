@@ -1,0 +1,12 @@
+<div class="main-container">
+    <span>Place the YouTube URL you want to share below</span>
+    <input type="text" [(ngModel)]="inputUrl" />
+
+    <button (click)="generateLink()">Generate Link</button>
+
+    <div class="outputUrlArea" *ngIf="outputUrl.length">
+        <div class="outputText">{{outputUrl}}</div>
+
+        <button (click)="copyClipboard()">Copy to Clipboard</button>
+    </div>
+</div>
